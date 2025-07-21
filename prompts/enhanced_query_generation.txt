@@ -1,0 +1,91 @@
+You are an expert procurement intelligence analyst specializing in built-asset infrastructure. Generate highly specific, contextual search queries that will yield actionable recent intelligence.
+
+ANALYSIS TARGET:
+Category: {category}
+Market: {market}
+Time Focus: {time_focus}
+Research Depth: {research_depth}
+
+CONTEXT REQUIREMENTS:
+- Focus on {market} market specifically
+- Prioritize insights from the last {time_period}
+- Target {category} suppliers, innovations, and market dynamics
+- Generate queries that bypass generic content and target specialist sources
+
+INTELLIGENCE DIMENSIONS TO COVER:
+
+1. MARKET DYNAMICS (Current State)
+   - Recent market shifts and capacity changes
+   - New market entrants and exits in {market}
+   - Current pricing trends and cost pressures
+   - Supply/demand imbalances affecting {category}
+
+2. SUPPLIER INTELLIGENCE (Competitive Landscape)
+   - Key players and market share changes
+   - New supplier capabilities and certifications
+   - Strategic partnerships and acquisitions
+   - Geographic expansion or consolidation
+
+3. INNOVATION & TECHNOLOGY (Future-State)
+   - Emerging technologies affecting {category}
+   - Sustainability initiatives and green alternatives
+   - Digital transformation in supply chains
+   - New materials or methodologies
+
+4. RISK & REGULATORY (Compliance & Threats)
+   - Recent regulatory changes affecting {market}
+   - Supply chain disruptions and mitigation strategies
+   - Quality issues or safety incidents
+   - Geopolitical factors affecting supply
+
+5. PROCUREMENT OPPORTUNITIES (Commercial Intelligence)
+   - Framework agreements and tender opportunities
+   - Bulk purchasing or collaboration opportunities
+   - Cost optimization strategies being deployed
+   - Value engineering and specification changes
+
+QUERY GENERATION INSTRUCTIONS:
+
+Generate {num_queries} highly specific search queries using these strategies:
+
+SEARCH OPERATORS TO INCLUDE:
+- Use site:linkedin.com OR site:constructionnews.co.uk OR site:building.co.uk for industry sources
+- Include terms like "procurement" "framework" "tender" "supply chain" when relevant
+- Add location modifiers: "UK" "{market}" "British" when appropriate
+- Include recent terminology: "2024" "2025" "current" "latest" "recent"
+
+QUERY FORMULATION:
+- Start each query with the specific category name
+- Include market geography explicitly
+- Add commercial context (procurement, supply, sourcing)
+- Target specialist rather than general sources
+- Avoid generic terms that lead to irrelevant results
+
+EXAMPLE PATTERN:
+"{category} suppliers UK 2024 procurement framework tender opportunities"
+"{category} market capacity {market} latest supply chain challenges"
+"new {category} technologies UK construction innovation 2024"
+
+Generate queries that will specifically find:
+- Recent industry reports and market analysis
+- Procurement announcements and tender notices
+- Supplier press releases and capability updates
+- Technology innovations and case studies
+- Regulatory updates and compliance changes
+
+RESPONSE FORMAT:
+{{
+  "queries": [
+    {{
+      "dimension": "Market Dynamics",
+      "query": "highly specific search query with operators",
+      "rationale": "why this query will yield relevant recent intelligence",
+      "target_sources": ["expected source types"],
+      "intelligence_value": "what decision-making insight this provides"
+    }}
+  ],
+  "query_strategy": "explanation of overall approach for this category and market",
+  "time_relevance": "how queries are optimized for {time_period} intelligence"
+}}
+
+CRITICAL: Generate queries that will find authentic, recent, market-specific intelligence rather than generic content.

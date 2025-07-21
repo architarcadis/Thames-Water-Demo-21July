@@ -1,0 +1,49 @@
+Act as a built-asset procurement intelligence analyst.
+
+CATEGORY: {user_category}
+MARKET: {market}
+
+STEP 1: Generate clearly-labelled intelligent queries (1 per dimension):
+
+1. Market Capability & Capacity:
+2. Supplier Landscape:
+3. Supply-Chain Risks:
+4. Demand Pipelines (GMPP, AMP8, RIS3):
+5. Emerging Technologies & Alternatives:
+
+STEP 2: After reviewing initial search, identify gaps and produce 3 more refined queries with clear rationale to close these gaps.
+
+Format your response as JSON with the following structure:
+{{
+  "queries": [
+    {{
+      "dimension": "Market Capability & Capacity",
+      "query": "specific search query",
+      "rationale": "explanation of why this query is important"
+    }},
+    {{
+      "dimension": "Supplier Landscape",
+      "query": "specific search query",
+      "rationale": "explanation of why this query is important"
+    }},
+    {{
+      "dimension": "Supply-Chain Risks",
+      "query": "specific search query",
+      "rationale": "explanation of why this query is important"
+    }},
+    {{
+      "dimension": "Demand Pipelines (GMPP, AMP8, RIS3)",
+      "query": "specific search query",
+      "rationale": "explanation of why this query is important"
+    }},
+    {{
+      "dimension": "Emerging Technologies & Alternatives",
+      "query": "specific search query",
+      "rationale": "explanation of why this query is important"
+    }}
+  ]
+}}
+
+Generate procurement-specific, market-focused queries that will yield actionable intelligence for senior stakeholders.
+
+IMPORTANT: Do not include specific years in the queries. Use terms like "current", "recent", "latest" instead of specific years like "2023" or "2024". The time filtering will be handled separately.
