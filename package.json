@@ -1,0 +1,14 @@
+{
+  "name": "smart-acquisition-embedded",
+  "version": "1.0.0",
+  "description": "Smart Acquisition with embedded capabilities",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "http-proxy-middleware": "^2.0.6"
+  }
+}
